@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: frontend-app
-          image: dilipford/frontend:latesttsds
+          image: dilipford/frontend:latest
           imagePullPolicy: Always  # Ensures the latest image is always pulled
           ports:
             - containerPort: 3000  # Change this to your frontend service port
