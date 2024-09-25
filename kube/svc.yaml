@@ -12,6 +12,6 @@ spec:
     - port: 8080        # Port that the service will expose
       targetPort: 8080  # Port on the pod where the app is running
       protocol: TCP
-      nodePort: 30002    # Optional: Specify a custom NodePort or let Kubernetes assign one
+      nodePort: 30004    # Optional: Specify a custom NodePort or let Kubernetes assign one
   selector:
     role: frontend  # Match the labels of the frontend pods
