@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend
-  namespace: pf
+  namespace: prod
   labels:
     role: frontend
     env: demo
